@@ -1,0 +1,23 @@
+name: loop-app
+description: Playing with an experimental unidirectional data flow framework for Dart
+version: 0.0.1
+author: David Notik <dave@woven.co>
+homepage: https://github.com/danschultz/loop.dart
+
+environment:
+  sdk: '>=1.10.0 <2.0.0'
+
+dependencies:
+  frappe: ^0.4.0
+  option: ^1.1.0
+  firebase: '^0.6.5'
+  loop:
+    git: https://github.com/danschultz/loop.dart.git
+
+dev_dependencies:
+  browser: ^0.10.0
+  react: ^0.8.0
+  dart_to_js_script_rewriter: '^0.1.0'
+
+transformers:
+- dart_to_js_script_rewriter

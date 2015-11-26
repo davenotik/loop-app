@@ -1,0 +1,8 @@
+library config;
+
+var config = {
+  'firebase': {
+    'secret': 'i7dfNHOVFPXXXXXXXXX',
+    'url': 'https://your-firebase.firebaseio.com'
+  }
+};
